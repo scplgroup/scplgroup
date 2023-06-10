@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "personal-portfoli-angular": {
+    "scplgroup": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/personal-portfoli-angular",
+            "outputPath": "dist/scplgroup",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "personal-portfoli-angular:build:production"
+              "browserTarget": "scplgroup:build:production"
             },
             "development": {
-              "browserTarget": "personal-portfoli-angular:build:development"
+              "browserTarget": "scplgroup:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "personal-portfoli-angular:build"
+            "browserTarget": "scplgroup:build"
           }
         },
         "test": {
